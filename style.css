@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 171, 15, 0.84);
+}
+
+#form-auth {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid rgb(255, 85, 0);
+    border-radius: 20px;
+}
+
+#form-auth label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

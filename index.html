@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en_US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <form id="form-auth">
+            <label id="form-auth label">
+                Emeil:
+                <input type="email" name="email" required>
+                <small>Example: pasha@gmail.com</small>
+            </label>
+            <label>
+                Your name:
+                <input type="text" name="name" pattern="[А-Яа-яЁё]+">
+                <small>Example: Паша</small>
+            </label>
+            <label>
+                Password:
+                <input type="text" name="password" pattern="[0-9]{5,10}" required>
+                <small>Example: 10234</small>
+            </label>
+            <button type="submit">Sing Up</button>
+        </form>
+        <script src="main.js"></script>
+    </body>
+</html>

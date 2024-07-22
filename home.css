@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.partners {
+    background-color: rgb(251, 235, 215);
+    padding-top: 30px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.partners-icons {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partners-text {
+    color: rgb(47, 28, 72);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.services {
+    background-color: rgb(47, 28, 72);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 140px;    
+}
+
+.services-text1 {
+    color: rgb(248, 249, 255);
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -1%;
+    text-align: left;
+}
+
+.services-text2 {
+    color: rgb(248, 249, 255);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.services-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services-card {
+    background-color: rgb(172, 108, 255);
+    padding-top: 40px;
+    padding-left: 66px;
+    padding-right: 66px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+
+.card-text {
+    color: white;
+}
+
+.Why-Choose-Us {
+    background-color: rgb(251, 235, 215);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: px;
+    padding-left: px;
+    padding-right: px;
+    padding-bottom: px;      
+}
+
+.Why-Choose-Us-text {
+    color: rgb(44, 46, 51);
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -2%;
+    text-align: left;
+}
